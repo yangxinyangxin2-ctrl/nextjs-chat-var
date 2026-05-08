@@ -6,6 +6,7 @@ export const maxDuration = 60;
 
 const API_KEY = process.env.API_KEY || '';
 const BASE_URL = process.env.BASE_URL || '';
+const API_URL = process.env.API_URL || '';
 const MODEL = process.env.MODEL || '';
 
 function getModelConfig(modelId: string): { apiKey: string; baseUrl: string; model: string } {

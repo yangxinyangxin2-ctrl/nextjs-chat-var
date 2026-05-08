@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 255, 255, 255;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -54,7 +54,7 @@ body {
 
 /* Markdown styles */
 .markdown-body {
-  @apply text-gray-900 dark:text-gray-100;
+  @apply text-gray-100;
 }
 
 .markdown-body p {
@@ -79,11 +79,11 @@ body {
 }
 
 .markdown-body code {
-  @apply bg-gray-100 dark:bg-gray-800 px-1.5 py-0.5 rounded text-sm font-mono;
+  @apply bg-gray-800 px-1.5 py-0.5 rounded text-sm font-mono;
 }
 
 .markdown-body pre {
-  @apply bg-gray-100 dark:bg-gray-900 p-4 rounded-lg mb-4 overflow-x-auto border border-gray-200 dark:border-gray-800;
+  @apply bg-gray-900 p-4 rounded-lg mb-4 overflow-x-auto border border-gray-800;
 }
 
 .markdown-body pre code {
